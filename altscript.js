@@ -16,6 +16,6 @@ clear.addEventListener("click", function(event) {
     if (confirm) {
 
         localStorage.removeItem("highScores")
-        window.location.href = "file:///C:/Users/jpfla_000/Timed_Quiz/index.html"
+        window.location.href = "https://elijahflanders96.github.io/Timed_Quiz/index.html"
     }
 })
