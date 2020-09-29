@@ -132,7 +132,7 @@ function endQuiz() {
         }
         else {
             alert("Thanks for playing!")
-            window.location.href = "file:///C:/Users/jpfla_000/Timed_Quiz/altindex.html"
+            window.location.href = "https://elijahflanders96.github.io/Timed_Quiz/altindex.html"
         }
     })
     clearInterval(timerInterval)
