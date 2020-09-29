@@ -6,9 +6,8 @@ This quiz is designed to test your knowledge of Apex Legends. Once the user star
 
 Links:
 
-Link to deployed "Start Quiz" page: <a href="https://elijahflanders96.github.io/Timed_Quiz/index.html"></a>
-Link to deployed "Highscores" page: <a href="https://elijahflanders96.github.io/Timed_Quiz/altindex.html"></a>
-
+Link to deployed "Start Quiz" page: [Start Quiz Page](https://elijahflanders96.github.io/Timed_Quiz/index.html)
+Link to deployed "Highscores" page: [Highscores Page](https://elijahflanders96.github.io/Timed_Quiz/altindex.html)
 Usage Instructions:
 
 Click the Start Button to start the quiz
@@ -21,6 +20,10 @@ The user can submit their initials to the highscore page, which displays the sco
 The user can either choose to go back to the start page or clear the highscores
 
 
+Credits:
 
-Web Dev Simplified and James Q Quirk's videos helped a lot for this project. Here are the links respectively
+Web Dev Simplified and James Q Quirk's videos helped a lot for this project. Here are the links respectively:
+
+
+Thanks as well to Kylie Schmidt for grueling over this project with me.
 
