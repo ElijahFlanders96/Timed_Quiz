@@ -90,20 +90,28 @@ function startTimer() {
 
 function endQuiz() {
     questionContainerEl.classList.add("hide")
-    finishDiv = document.createElement("div")
+
+    var finishDiv = document.createElement("div")
     finishDiv.textContent = "All Done!"
     main.appendChild(finishDiv)
-    scoreDiv = document.createElement("div")
+    finishDiv.setAttribute("style", "text-align:center; font-weight:bold;")
+
+    var scoreDiv = document.createElement("div")
     scoreDiv.textContent = "Your score: " + timeRemaining
     finishDiv.appendChild(scoreDiv)
-    initials = document.createElement("div")
+
+    var initials = document.createElement("div")
     initials.textContent = "Enter your initials to submit your score:"
     finishDiv.appendChild(initials)
-    textbox = document.createElement("input")
+
+    var textbox = document.createElement("input")
     finishDiv.appendChild(textbox)
-    submitBtn = document.createElement("btn")
+
+    var submitBtn = document.createElement("btn")
     submitBtn.textContent = "Submit"
     finishDiv.appendChild(submitBtn)
+    submitBtn.setAttribute("style", "background-color:orange; color:black; border:1px; border-radius:5px; padding:5px10px; font-size:1.5rem; font-weight:bold; padding:10px20px;")
+
     submitBtn.addEventListener("click", function(event) {
         event.preventDefault()
 
