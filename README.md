@@ -12,6 +12,7 @@ Link to deployed "Highscores" page: <a href="https://elijahflanders96.github.io/
 Usage Instructions:
 
 Click the Start Button to start the quiz
+<img src="ApexQuizStart.png">
 A 60 second timer will start and the user will answer 5 questions
 Everytime the user chooses a qrong answer, 5 seconds are deducted from the clock
 The quiz ends after the user has answered all the questions or the timer runs out
