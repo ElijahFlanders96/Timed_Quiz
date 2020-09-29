@@ -23,7 +23,7 @@ The user can either choose to go back to the start page or clear the highscores
 Credits:
 
 Web Dev Simplified and James Q Quirk's videos helped a lot for this project. Here are the links respectively:
-
-
+[Web Dev Simplified](https://www.youtube.com/watch?v=riDzcEQbX6k)
+[James Q Quirk](https://www.youtube.com/watch?v=jfOv18lCMmw)
 Thanks as well to Kylie Schmidt for grueling over this project with me.
 
