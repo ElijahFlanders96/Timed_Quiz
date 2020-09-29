@@ -6,5 +6,20 @@ This quiz is designed to test your knowledge of Apex Legends. Once the user star
 
 Links:
 
-Link to deployed "Start Quiz" page:
-Link to deployed "Highscores" page:
+Link to deployed "Start Quiz" page: <a href="https://elijahflanders96.github.io/Timed_Quiz/index.html"></a>
+Link to deployed "Highscores" page: <a href="https://elijahflanders96.github.io/Timed_Quiz/altindex.html"></a>
+
+Usage Instructions:
+
+Click the Start Button to start the quiz
+A 60 second timer will start and the user will answer 5 questions
+Everytime the user chooses a qrong answer, 5 seconds are deducted from the clock
+The quiz ends after the user has answered all the questions or the timer runs out
+The score is equal to the amount of time remaining on the timer when the quiz ends
+The user can submit their initials to the highscore page, which displays the scores in order of highest to lowest
+The user can either choose to go back to the start page or clear the highscores
+
+
+
+Web Dev Simplified and James Q Quirk's videos helped a lot for this project. Here are the links respectively
+
