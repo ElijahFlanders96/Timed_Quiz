@@ -88,14 +88,14 @@
       text-align: center;
       font-size: 30px;
       position: fixed;
-      bottom: 20%;
+      bottom: 10%;
       color: black;
   }
 
   #return {
     text-align: center;
     position: fixed;
-    bottom: 30%;
+    bottom:15%;
     color: white;
   }
 
