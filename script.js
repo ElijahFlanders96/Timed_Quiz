@@ -50,15 +50,15 @@ function selectAnswer(e) {
     Array.from(answerBtnsEl.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     })
+    if (!correct) {
+        timeRemaining = timeRemaining - 5
+    }
     if (questions.length >= questionIndex + 1) {
             questionIndex++
             advanceQuestion()
     } 
     else {
         endQuiz()
-    }
-    if (btnSelect != correct) {
-        timeRemaining = timeRemaining - 5
     }
 }
 
@@ -96,6 +96,37 @@ function endQuiz() {
     scoreDiv = document.createElement("div")
     scoreDiv.textContent = "Your score: " + timeRemaining
     finishDiv.appendChild(scoreDiv)
+    initials = document.createElement("div")
+    initials.textContent = "Enter your initials to submit your score:"
+    finishDiv.appendChild(initials)
+    textbox = document.createElement("input")
+    finishDiv.appendChild(textbox)
+    submitBtn = document.createElement("btn")
+    submitBtn.textContent = "Submit"
+    finishDiv.appendChild(submitBtn)
+    submitBtn.addEventListener("click", function(event) {
+        event.preventDefault()
+
+        var highScores = JSON.parse(localStorage.getItem("highScores")) || []
+
+        var score = {
+            score: timeRemaining,
+            name: textbox.value
+        }
+
+        highScores.push(score)
+        highScores.sort( (a,b) => b.score - a.score)
+
+        localStorage.setItem("highScores", JSON.stringify(highScores))
+
+        if (score === "") {
+            alert("You must have initials, right?")
+        }
+        else {
+            alert("Thanks for playing!")
+            window.location.href = "file:///C:/Users/jpfla_000/Timed_Quiz/altindex.html"
+        }
+    })
     clearInterval(timerInterval)
 }
 
